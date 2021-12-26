@@ -1,0 +1,18 @@
+/* .logo{
+    border: 2px solid rgb(8, 0, 255);
+    font-family: georgia;
+}
+.Search-Bar {
+    border: 2px solid rgb(197, 197, 197);
+}
+.footer {
+    border: 2px solid rgb(0, 255, 55);
+}
+ */
+
+
+ * {
+     margin: 0;
+     padding: 0;
+     /* border: 1px solid black; */
+ }
