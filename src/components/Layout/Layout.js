@@ -1,4 +1,5 @@
 import * as React from "react";
+import Card from '../Card/Card';
 
 function Layout() {
   return (
@@ -11,17 +12,17 @@ function Layout() {
           </div>
         </div>
       </header>
-        <div class="container">
-          <h1 class="mt-5">Filter, etc</h1> 
+        <div className="container">
+          <h1 className="mt-5">Filter, etc</h1> 
         </div>
       <nav>
         
       </nav>
 
       <main className="flex-shrink-0">
-        <div class="container">
-          <h1 class="mt-5">Catalogo</h1>
-         
+        <div className="container">
+          <h1 className="mt-5">Components</h1>
+          <Card />
         </div>
         {/* <DogCatalog /> */}
         {/* <aside>
