@@ -11,10 +11,16 @@ function Layout() {
           </div>
         </div>
       </header>
+        <div class="container">
+          <h1 class="mt-5">Filter, etc</h1> 
+        </div>
+      <nav>
+        
+      </nav>
 
       <main className="flex-shrink-0">
         <div class="container">
-          <h1 class="mt-5">Sticky footer with fixed navbar</h1>
+          <h1 class="mt-5">Catalogo</h1>
          
         </div>
         {/* <DogCatalog /> */}
