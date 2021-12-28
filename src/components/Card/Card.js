@@ -1,11 +1,8 @@
 import React from 'react'; 
 import './Card.css';
 
-
-
 function Card() {
     return (
-
     <div className="card">
         <img src="https://picsum.photos/id/237/200" className="card-img-top" alt="foto de perro beagle" />
         <div className="card-body">
@@ -16,10 +13,7 @@ function Card() {
             <a href="#" className="btn btn-primary">Ver mas.</a>
         </div>
     </div>
-
     )
 }
-
-
 
 export default Card
