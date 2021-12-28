@@ -1,4 +1,5 @@
 import * as React from "react";
+import SearchBar from '../SearchBar/SearchBar';
 import Card from '../Card/Card';
 import DropdownCustom from '../DropdownCustom/DropdownCustom';
 
@@ -38,20 +39,7 @@ function Layout() {
 
 export default Layout;
 
-function SearchBar() {
-  return (
-    <div className="col-4">
-      <form className="d-flex">
-        <input
-          className="form-control me-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-      </form>
-    </div>
-  );
-}
+
 
 function Logo() {
   return (
