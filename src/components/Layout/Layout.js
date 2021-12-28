@@ -1,5 +1,6 @@
 import * as React from "react";
 import Card from '../Card/Card';
+import DropdownCustom from '../DropdownCustom/DropdownCustom';
 
 function Layout() {
   return (
@@ -12,24 +13,22 @@ function Layout() {
           </div>
         </div>
       </header>
-        <div className="container">
-          <h1 className="mt-5">Filter, etc</h1> 
-        </div>
-      <nav>
-        
-      </nav>
+      <br />
+      <div className="container mt-auto py-3 bg-light">
+        <DropdownCustom /> 
+      </div>
 
       <main className="flex-shrink-0">
         <div className="container">
           <h1 className="mt-5">Components</h1>
           <Card />
         </div>
+
         {/* <DogCatalog /> */}
         {/* <aside>
-                   <FilterBar />
-               </aside>
-
-                    <CardList /> */}
+        <FilterBar />
+        </aside>
+        <CardList /> */}
       </main>
 
 
