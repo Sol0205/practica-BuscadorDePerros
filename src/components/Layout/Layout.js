@@ -1,4 +1,7 @@
 import * as React from "react";
+import SearchBar from '../SearchBar/SearchBar';
+import Card from '../Card/Card';
+import DropdownCustom from '../DropdownCustom/DropdownCustom';
 
 function Layout() {
   return (
@@ -11,18 +14,22 @@ function Layout() {
           </div>
         </div>
       </header>
+      <br />
+      <div className="container mt-auto py-3 bg-light">
+        <DropdownCustom /> 
+      </div>
 
       <main className="flex-shrink-0">
-        <div class="container">
-          <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-         
+        <div className="container">
+          <h1 className="mt-5">Components</h1>
+          <Card />
         </div>
+
         {/* <DogCatalog /> */}
         {/* <aside>
-                   <FilterBar />
-               </aside>
-
-                    <CardList /> */}
+        <FilterBar />
+        </aside>
+        <CardList /> */}
       </main>
 
 
@@ -32,20 +39,7 @@ function Layout() {
 
 export default Layout;
 
-function SearchBar() {
-  return (
-    <div className="col-4">
-      <form className="d-flex">
-        <input
-          className="form-control me-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-      </form>
-    </div>
-  );
-}
+
 
 function Logo() {
   return (
