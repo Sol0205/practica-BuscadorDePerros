@@ -2,6 +2,7 @@ import * as React from "react";
 import SearchBar from '../SearchBar/SearchBar';
 import Card from '../Card/Card';
 import DropdownCustom from '../DropdownCustom/DropdownCustom';
+import Pagination from '../Pagination/Pagination';
 
 function Layout() {
   return (
@@ -30,6 +31,7 @@ function Layout() {
         <FilterBar />
         </aside>
         <CardList /> */}
+        <Pagination />
       </main>
     </div>
   );
