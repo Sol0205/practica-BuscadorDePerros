@@ -31,15 +31,11 @@ function Layout() {
         </aside>
         <CardList /> */}
       </main>
-
-
     </div>
   );
 }
 
 export default Layout;
-
-
 
 function Logo() {
   return (
