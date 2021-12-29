@@ -1,8 +1,10 @@
 import * as React from "react";
 import SearchBar from '../SearchBar/SearchBar';
-import Card from '../Card/Card';
+import Cards from '../Cards/Cards.js';
 import DropdownCustom from '../DropdownCustom/DropdownCustom';
 import Pagination from '../Pagination/Pagination';
+import Dogs from '../../utils/constants/MockDogs.json';
+
 
 function Layout() {
   return (
@@ -16,14 +18,14 @@ function Layout() {
         </div>
       </header>
       <br />
-      <div className="container mt-auto py-3 bg-light">
+      <div className="container mt-auto py-3">
         <DropdownCustom /> 
       </div>
 
       <main className="flex-shrink-0">
         <div className="container">
           <h1 className="mt-5">Components</h1>
-          <Card />
+          <Cards perros={Dogs}/>
         </div>
 
         {/* <DogCatalog /> */}
