@@ -7,13 +7,16 @@ function Card(props) {
     <div className="card bg-light" >
       <img src={props.cardInfo.img} alt="" />
       <div className="card-body text-dark">
-        <h4 className="card-title">{props.cardInfo.title}</h4>
+        <h3 className="card-title align-baseline fw-bolder fs-4">{props.cardInfo.title}</h3>
         {/* text-primary || text-secundary || text-danger || text-warning */}
-        <p className="card-text text-secundary">{props.cardInfo.altura}</p>
-        <p className="card-text text-secundary">{props.cardInfo.peso}</p>
-        <a href="#" className="btn-ver-mas btn btn-primary rounded-0">
-          Ver mas.
-        </a>
+        <br />
+        <p className="card-text text-secundary align-baseline fs-5">{props.cardInfo.altura}</p>
+        <p className="card-text text-secundary align-baseline fs-5">{props.cardInfo.peso}</p>
+        <div className="row">
+          <a href="https://www.hillspet.es/dog-care/dog-breeds/beagle" className="btn btn-primary col align-self-end fs-5">
+            Ver mas.
+          </a>
+        </div>
       </div>
     </div>
   );
