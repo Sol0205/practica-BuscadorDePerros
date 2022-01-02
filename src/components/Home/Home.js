@@ -6,6 +6,7 @@ import DropdownCustom from '../DropdownCustom/DropdownCustom';
 import Pagination from '../Pagination/Pagination';
 import Dogs from '../../utils/constants/MockDogs.json';
 import ButtonCustom from '../ButtonCustom/ButtonCustom';
+import Logo from '../Logo/Logo'
 
 function Home() {
   return (
@@ -39,12 +40,6 @@ function Home() {
   )
 }
 
-function Logo() {
-  return (
-    <div className="col-8">
-      <h1>Buscador de perros</h1>
-    </div>
-  );
-}
+
 
 export default Home
