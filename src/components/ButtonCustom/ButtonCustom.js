@@ -18,7 +18,7 @@ function ButtonCustom(props) {
 ButtonCustom.defaultProps = {
   type: "info",
   size: "md",
-  rounded: true,
+  rounded: false,
 };
 
 ButtonCustom.propTypes = {
